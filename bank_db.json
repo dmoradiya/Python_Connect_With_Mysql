@@ -1,0 +1,58 @@
+[
+{"type":"header","version":"5.0.3","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"bank_db"},
+{"type":"table","name":"account","database":"bank_db","data":
+[
+{"AccountID":"1","ClientID":"1","AccountType":"Chequing","AccountBalance":"2189.43","Cashback":"12.28","AccountDate":"2018-10-02","IsActive":"1"},
+{"AccountID":"2","ClientID":"1","AccountType":"Savings","AccountBalance":"20550.43","Cashback":"23.58","AccountDate":"2018-10-02","IsActive":"1"},
+{"AccountID":"3","ClientID":"2","AccountType":"Chequing","AccountBalance":"144.00","Cashback":"5.80","AccountDate":"2018-09-12","IsActive":"1"},
+{"AccountID":"4","ClientID":"3","AccountType":"Chequing","AccountBalance":"77850.00","Cashback":"100.07","AccountDate":"2018-05-28","IsActive":"1"},
+{"AccountID":"5","ClientID":"4","AccountType":"Chequing","AccountBalance":"174.10","Cashback":"45.00","AccountDate":"2018-11-17","IsActive":"1"},
+{"AccountID":"6","ClientID":"5","AccountType":"Chequing","AccountBalance":"0.00","Cashback":"0.00","AccountDate":"2020-12-07","IsActive":"1"},
+{"AccountID":"7","ClientID":"6","AccountType":"Chequing","AccountBalance":"0.00","Cashback":"0.00","AccountDate":"2020-12-08","IsActive":"1"},
+{"AccountID":"8","ClientID":"7","AccountType":"Chequing","AccountBalance":"9300.00","Cashback":"35.00","AccountDate":"2020-12-25","IsActive":"1"}
+]
+}
+,{"type":"table","name":"client","database":"bank_db","data":
+[
+{"ClientID":"1","EmailAddress":"johndoe123@gmail.com","Password":"$2a$11$VA8lRhjgEsQvSrmoeWzyo.2U3j.LTkqpxcYwJZgf4aX5zGMifwrde","PhoneNumber":"7804188874","FirstName":"John","LastName":"Doe","DateOfBirth":"1989-03-29","Address":"154 South Gate Blwd","City":"Edmonton","Province":"AB","PostalCode":"T8N3A4"},
+{"ClientID":"2","EmailAddress":"trevorbelmont123@gmail.com","Password":"$2a$11$95Aao\/mZ8sq7dimAwqRoS.ZWdK0Id7X6cqigHuz9kMl.\/rGbPzhKy","PhoneNumber":"7804442121","FirstName":"Trevor","LastName":"Belmont","DateOfBirth":"1880-02-25","Address":"1010 White Ave","City":"London","Province":"ON","PostalCode":"Z4A2B1"},
+{"ClientID":"3","EmailAddress":"richardrich@gmail.com","Password":"$2a$11$vzGYLnnCNrh1ua6.fKhyBuCrpaPKbkC9kMd49Xh.n7EuZtZBmrUpq","PhoneNumber":"7771115454","FirstName":"Richard","LastName":"Rich","DateOfBirth":"1999-12-03","Address":"2 Century Drive","City":"Edmonton","Province":"AB","PostalCode":"T8N3E1"},
+{"ClientID":"4","EmailAddress":"brokeasajoke@gmail.com","Password":"$2a$11$ROC9MfwZPA1V2OflUsXNsusWjyMyWWKymHI4Spi2fMqFYuIH1Aivm","PhoneNumber":"7809198888","FirstName":"Bruce","LastName":"Hunter","DateOfBirth":"1979-05-04","Address":"145 Gateway DR","City":"Edmonton","Province":"AB","PostalCode":"T8N6Y3"},
+{"ClientID":"5","EmailAddress":"edmonton@gmail.com","Password":"$2a$11$B62behKiMp7Empy9X3VARORk4SvApZGw4RwMnQPSOq7d1He\/i5E1q","PhoneNumber":"7807807800","FirstName":"City","LastName":"Edmonton","DateOfBirth":"2020-12-07","Address":"14th Street","City":"Edmonton","Province":"AB","PostalCode":"T6J 3T5"},
+{"ClientID":"6","EmailAddress":"alberta123@gmail.com","Password":"$2a$11$g9UE5oMlEHmXXuwvgk2sxuBhaxRFmQwGm9eehLHgZ.bBL7wCYIe52","PhoneNumber":"7807807800","FirstName":"Alberta","LastName":"Jr","DateOfBirth":"2020-12-01","Address":"14th Street","City":"Edmonton","Province":"AB","PostalCode":"T6J 3T5"},
+{"ClientID":"7","EmailAddress":"jmoradiya@nait.ca","Password":"$2a$11$gQ5\/ordHnZQTt2ZawQWBkeg\/XMmV8AP1yDtB4W4I9g\/qjeym8LFti","PhoneNumber":"7808027930","FirstName":"Jigs","LastName":"Moradia","DateOfBirth":"1994-04-02","Address":"G 208 1025 106 Strret","City":"edmonton","Province":"AB","PostalCode":"T6J 2N9"}
+]
+}
+,{"type":"table","name":"transaction","database":"bank_db","data":
+[
+{"TransactionID":"1","AccountID":"1","TransactionSource":"Bank","TransactionCategory":"Deposit","TransactionValue":"2001.86","TransactionDate":"2020-07-11","IsTransactionActive":"1"},
+{"TransactionID":"2","AccountID":"1","TransactionSource":"Bill Payment","TransactionCategory":"Rent","TransactionValue":"1100.00","TransactionDate":"2020-07-29","IsTransactionActive":"1"},
+{"TransactionID":"3","AccountID":"1","TransactionSource":"Bill Payment","TransactionCategory":"Other","TransactionValue":"200.00","TransactionDate":"2020-10-15","IsTransactionActive":"1"},
+{"TransactionID":"4","AccountID":"1","TransactionSource":"Bill Payment","TransactionCategory":"Food","TransactionValue":"50.00","TransactionDate":"2020-10-16","IsTransactionActive":"1"},
+{"TransactionID":"5","AccountID":"1","TransactionSource":"Bill Payment","TransactionCategory":"Health","TransactionValue":"30.00","TransactionDate":"2020-10-30","IsTransactionActive":"1"},
+{"TransactionID":"6","AccountID":"1","TransactionSource":"ATM","TransactionCategory":"Deposit","TransactionValue":"430.00","TransactionDate":"2020-04-11","IsTransactionActive":"1"},
+{"TransactionID":"7","AccountID":"1","TransactionSource":"ATM","TransactionCategory":"Deposit","TransactionValue":"110.00","TransactionDate":"2020-05-11","IsTransactionActive":"1"},
+{"TransactionID":"8","AccountID":"1","TransactionSource":"Bank","TransactionCategory":"Deposit","TransactionValue":"320.00","TransactionDate":"2020-06-11","IsTransactionActive":"1"},
+{"TransactionID":"9","AccountID":"1","TransactionSource":"Bank","TransactionCategory":"Deposit","TransactionValue":"750.00","TransactionDate":"2020-07-11","IsTransactionActive":"1"},
+{"TransactionID":"10","AccountID":"2","TransactionSource":"ATM","TransactionCategory":"Withdraw","TransactionValue":"50.00","TransactionDate":"2020-08-11","IsTransactionActive":"1"},
+{"TransactionID":"11","AccountID":"2","TransactionSource":"Bill Payment","TransactionCategory":"Food","TransactionValue":"10.00","TransactionDate":"2020-08-13","IsTransactionActive":"1"},
+{"TransactionID":"12","AccountID":"3","TransactionSource":"Bank","TransactionCategory":"Deposit","TransactionValue":"7500.00","TransactionDate":"2020-07-11","IsTransactionActive":"1"},
+{"TransactionID":"13","AccountID":"3","TransactionSource":"Bank","TransactionCategory":"Deposit","TransactionValue":"7500.00","TransactionDate":"2020-08-11","IsTransactionActive":"1"},
+{"TransactionID":"14","AccountID":"3","TransactionSource":"Bank","TransactionCategory":"Withdraw","TransactionValue":"3000.00","TransactionDate":"2020-08-14","IsTransactionActive":"1"},
+{"TransactionID":"15","AccountID":"3","TransactionSource":"Bank","TransactionCategory":"Deposit","TransactionValue":"43750.00","TransactionDate":"2020-08-20","IsTransactionActive":"1"},
+{"TransactionID":"16","AccountID":"3","TransactionSource":"Bank","TransactionCategory":"Deposit","TransactionValue":"22100.00","TransactionDate":"2020-09-20","IsTransactionActive":"1"},
+{"TransactionID":"17","AccountID":"4","TransactionSource":"ATM","TransactionCategory":"Deposit","TransactionValue":"1100.32","TransactionDate":"2020-07-11","IsTransactionActive":"1"},
+{"TransactionID":"18","AccountID":"4","TransactionSource":"Bill Payment","TransactionCategory":"Rent","TransactionValue":"800.00","TransactionDate":"2020-07-29","IsTransactionActive":"1"},
+{"TransactionID":"19","AccountID":"4","TransactionSource":"Bill Payment","TransactionCategory":"Utilities","TransactionValue":"41.99","TransactionDate":"2020-10-15","IsTransactionActive":"1"},
+{"TransactionID":"20","AccountID":"4","TransactionSource":"Bill Payment","TransactionCategory":"Internet","TransactionValue":"84.23","TransactionDate":"2020-10-16","IsTransactionActive":"1"},
+{"TransactionID":"21","AccountID":"1","TransactionSource":"Bill Payment","TransactionCategory":"Food","TransactionValue":"45.23","TransactionDate":"2020-12-07","IsTransactionActive":"1"},
+{"TransactionID":"22","AccountID":"1","TransactionSource":"Bank","TransactionCategory":"Deposit","TransactionValue":"45.23","TransactionDate":"2020-12-08","IsTransactionActive":"1"},
+{"TransactionID":"23","AccountID":"8","TransactionSource":"Bank","TransactionCategory":"Deposit","TransactionValue":"500.00","TransactionDate":"2020-12-25","IsTransactionActive":"1"},
+{"TransactionID":"24","AccountID":"8","TransactionSource":"ATM","TransactionCategory":"Withdraw","TransactionValue":"500.00","TransactionDate":"2020-12-25","IsTransactionActive":"1"},
+{"TransactionID":"25","AccountID":"8","TransactionSource":"Bank","TransactionCategory":"Deposit","TransactionValue":"10000.00","TransactionDate":"2020-12-25","IsTransactionActive":"1"},
+{"TransactionID":"26","AccountID":"8","TransactionSource":"Bill Payment","TransactionCategory":"Clothing","TransactionValue":"500.00","TransactionDate":"2020-12-30","IsTransactionActive":"1"},
+{"TransactionID":"27","AccountID":"8","TransactionSource":"Bill Payment","TransactionCategory":"Housing","TransactionValue":"200.00","TransactionDate":"2021-01-11","IsTransactionActive":"1"}
+]
+}
+]
